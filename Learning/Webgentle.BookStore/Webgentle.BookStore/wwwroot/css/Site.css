@@ -1,0 +1,64 @@
+﻿body {
+}
+.logo{
+    height:200px;
+    width:200px;
+}
+
+.jumbotron{
+    background: none;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0366d6;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.box-shadow{
+    box-shadow: 0 .25rem .75rem rgba(0,0,0,.05);
+}
+
+button.accept-policy{
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* sticky footer styles
+.......................................................*/
+html{
+    font-size: 14px;
+}
+
+@media (min-width:768px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+body{
+    /*margin bottom by footer*/
+    margin-bottom: 60px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /*vertically center the text there*/
+}
+
+.membership-img{
+    width: 80%;
+}
